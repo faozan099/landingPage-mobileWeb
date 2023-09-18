@@ -1,0 +1,24 @@
+<svg width="55" height="41" viewBox="0 0 55 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logo lapaQ">
+<rect id="Rectangle 2" x="44.042" y="36.5137" width="8.29235" height="8.29235" rx="4.14617" transform="rotate(-43.5 44.042 36.5137)" fill="#2B2A4C"/>
+<rect id="Rectangle 3" x="0.000976562" y="9.06128" width="16.5847" height="2.76412" rx="1.38206" fill="#2B2A4C"/>
+<rect id="Rectangle 4" x="7.00293" y="13.4839" width="8.29234" height="2.76412" rx="1.38206" fill="#2B2A4C"/>
+<rect id="Rectangle 5" x="8.29395" y="4.63867" width="11.0565" height="2.76412" rx="1.38206" fill="#2B2A4C"/>
+<path id="Rectangle 5_2" d="M13.2804 32.0875L19.0445 26.6625L20.1464 28.4426L21.1636 29.7988L22.3503 31.2399L23.9609 32.4266L17.4339 37.0887L13.2804 32.0875Z" fill="#B31312"/>
+<g id="Ellipse 1" filter="url(#filter0_d_439_7564)">
+<path d="M48.8131 19.0335C48.8131 27.1419 42.24 33.715 34.1316 33.715C26.0232 33.715 19.45 27.1419 19.45 19.0335C19.45 10.925 26.0232 4.35186 34.1316 4.35186C42.24 4.35186 48.8131 10.925 48.8131 19.0335Z" stroke="#B31312" stroke-width="6.57775" shape-rendering="crispEdges"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_439_7564" x="15.0648" y="0.697558" width="37.7676" height="37.7681" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-0.182715" dy="0.548146"/>
+<feGaussianBlur stdDeviation="0.456788"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_439_7564"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_439_7564" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.coreContainer {
+    width: 390px;
+    height: auto;
+    margin: auto;
+}
+
+.bgHeader {
+    background-image: url('img/bgRainbow.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 185px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.search {
+    width: 268px;
+    height: 40px;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.infoBuying {
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerIcon{
+    width: 60px;
+    height: 60px;
+}
