@@ -15,7 +15,7 @@ body {
 
 .coreContainer {
     width: 390px;
-    height: auto;
+    height: 1340px;
     margin: auto;
     background-color: white;
 }
@@ -106,15 +106,16 @@ h6 {
     border-radius: 4px
 }
 
-.group-card{
+.group-card {
     padding: 0 2rem;
     margin-top: 1rem;
 }
 
-.flexCard{
+.flexCard {
     display: flex;
 }
-.card{
+
+.card {
     border: solid rgba(216, 216, 216, 1) 1px;
     border-radius: 8px;
     width: 156px;
@@ -123,27 +124,40 @@ h6 {
     gap: 15px;
 }
 
-.keteranganCard{
+.keteranganCard {
     padding-left: 4px;
 }
 
-.keteranganCard p{
+.keteranganCard p {
     font-size: 12px;
     padding: 4px;
 }
 
-.bintang{
+.bintang {
     padding-top: 12px;
 }
 
-.borderCard{
+.borderCard {
     border: solid rgba(216, 216, 216, 1) 1px;
     border-radius: 8px;
 }
 
-.view{
+.view {
     font-size: 12px;
     text-align: center;
     margin-top: 8px;
     color: rgba(0, 147, 237, 1);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+    background-color: rgba(216, 216, 216, 1);
+    height: 54px;
+    position: fixed;
+    bottom: 0;
+    width: 390px;
 }
