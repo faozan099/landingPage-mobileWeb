@@ -10,19 +10,21 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    background-color: rgb(235, 235, 235);
 }
 
 .coreContainer {
     width: 390px;
     height: auto;
     margin: auto;
+    background-color: white;
 }
 
 .bgHeader {
     background-image: url('img/bgRainbow.png');
     background-repeat: no-repeat;
     width: 100%;
-    height: 185px;
+    height: 210px;
 }
 
 .head {
@@ -38,17 +40,110 @@ body {
     height: 40px;
     border-radius: 0.5rem;
     padding-left: 0.5rem;
+    border: 0.5px solid black;
 }
 
 .infoBuying {
-    gap: 0.5rem;
+    gap: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.containerIcon{
+.containerIcon {
     width: 60px;
     height: 60px;
+}
+
+h6 {
+    font-weight: 600;
+}
+
+.banner {
+    width: 390px;
+    height: auto;
+    display: flex;
+    background-color: rgba(43, 42, 76, 1);
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.imgVector {
+    width: 100%;
+    height: 114px;
+    position: relative;
+    padding-left: 0.5rem;
+}
+
+.vector {
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+.people {
+    position: absolute;
+    top: -60px;
+}
+
+.bannerText {
+    text-align: center;
+    padding: 0 0.5rem;
+    line-height: 14px;
+}
+
+.btnSaller {
+    margin-top: 8px;
+    background-color: rgba(179, 19, 18, 1);
+    color: white;
+    width: 130px;
+    padding: 4px 4px;
+    border: solid 1px white;
+    border-radius: 4px
+}
+
+.group-card{
+    padding: 0 2rem;
+    margin-top: 1rem;
+}
+
+.flexCard{
+    display: flex;
+}
+.card{
+    border: solid rgba(216, 216, 216, 1) 1px;
+    border-radius: 8px;
+    width: 156px;
+    margin-top: 4px;
+    display: flex;
+    gap: 15px;
+}
+
+.keteranganCard{
+    padding-left: 4px;
+}
+
+.keteranganCard p{
+    font-size: 12px;
+    padding: 4px;
+}
+
+.bintang{
+    padding-top: 12px;
+}
+
+.borderCard{
+    border: solid rgba(216, 216, 216, 1) 1px;
+    border-radius: 8px;
+}
+
+.view{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    color: rgba(0, 147, 237, 1);
 }
