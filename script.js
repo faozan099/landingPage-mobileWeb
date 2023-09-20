@@ -1,4 +1,4 @@
-alert('Mohon maaf web kami akan lebih optimal jika dalam tampilan mobile')
+// alert('Mohon maaf web kami akan lebih optimal jika dalam tampilan mobile')
 
 const imgElements = document.querySelectorAll("img[data-url]");
 
