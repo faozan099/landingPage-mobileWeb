@@ -31,13 +31,13 @@ submit.addEventListener("click", (e) => {
   let inputPesan = document.getElementById("pesan").value
 
   if (inputName === "") {
-    alert("nama harus di isi");
+    alert("Mohon maaf silahkan masukan Namamu");
   } else if (inputEmail === "") {
-    alert("email harus di isi");
+    alert("Mohon maaf silahkan masukan email dengan benar");
   } else if (isNaN(Number(inputNumber)) || inputNumber === "") {
-    alert("harap masukan no telpon dengan sesuai");
+    alert("Mohon maaf silahkan masukan No Telpon dengan benar");
   }else if (inputPesan === ""){
-    alert("masukan pesan")
+    alert("Mohon maaf silahkan masukan pesan yang ingin disampaikan")
   }else {
     alert("terimakasih telah menghubungi kami");
     window.location.reload();
