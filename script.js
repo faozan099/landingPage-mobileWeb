@@ -28,7 +28,7 @@ submit.addEventListener("click", (e) => {
   let inputNumber = document.getElementById("noTelp").value;
   let inputEmail = document.getElementById("email").value;
   let inputName = document.getElementById("name").value;
-  let inputPesan = document.getElementById("pesan").value
+  let inputPesan = document.getElementById("pesan").value;
 
   if (inputName === "") {
     alert("Mohon maaf silahkan masukan Namamu");
@@ -36,9 +36,9 @@ submit.addEventListener("click", (e) => {
     alert("Mohon maaf silahkan masukan email dengan benar");
   } else if (isNaN(Number(inputNumber)) || inputNumber === "") {
     alert("Mohon maaf silahkan masukan No Telpon dengan benar");
-  }else if (inputPesan === ""){
-    alert("Mohon maaf silahkan masukan pesan yang ingin disampaikan")
-  }else {
+  } else if (inputPesan === "") {
+    alert("Mohon maaf silahkan masukan pesan yang ingin disampaikan");
+  } else {
     alert("terimakasih telah menghubungi kami");
     window.location.reload();
   }
