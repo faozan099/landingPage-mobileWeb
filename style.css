@@ -184,6 +184,9 @@ h6 {
 .form{
     display: flex;
     padding: 0 2rem;
+    padding-top: 1rem;
+    border-top: solid 1px rgb(224, 224, 224);
+    margin-top: 2rem;
 }
 input{
     width: 100%;
